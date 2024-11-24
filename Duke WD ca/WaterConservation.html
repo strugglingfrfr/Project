@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Conservation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info"> <!-- Blue navbar for water theme -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Water Conservation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ZeroEmission.html">Zero Emissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="waterconservation.html">Water Conservation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-center text-white py-5">
+        <div class="container">
+            <h1>Save Water, Save Life</h1>
+            <p class="lead">Learn simple ways to conserve water and protect our resources.</p>
+        </div>
+    </div>
+
+    <!-- Information Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Why Water Conservation Matters</h2>
+        <p>
+            Water conservation involves the careful management of water to reduce waste and ensure its availability for future generations. 
+            While 71% of the Earth's surface is covered with water, only 0.5% is accessible freshwater. This makes conservation efforts critical in combating water scarcity, which affects over 2 billion people worldwide.
+        </p>
+        <p>
+            Simple actions like fixing leaks, using water-efficient appliances, and collecting rainwater can make a big difference. 
+            According to studies, fixing household leaks can save up to 10,000 gallons of water per year, and water-efficient appliances can reduce daily water usage by 20–30%.
+        </p>
+        <p>
+            To learn more, visit the <a href="https://en.wikipedia.org/wiki/Water_conservation" target="_blank">Wikipedia page on Water Conservation</a>.
+        </p>
+        <!-- Reference: Data sourced from Wikipedia's page on Water Conservation -->
+    </div>
+
+    <!-- Random Tips Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Random Water-Saving Tips</h2>
+        <button class="btn btn-primary" id="generateWaterTip">Generate a Tip</button>
+        <p class="mt-3" id="waterTipDisplay" style="font-size: 1.2rem; font-weight: bold;"></p>
+    </div>
+
+    <!-- Images in a Grid -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Examples of Water Conservation</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+            <div class="col">
+                <img src="rainwater_harvesting.jpg" alt="Rainwater Harvesting" class="img-fluid rounded">
+                <!-- Source: Unsplash -->
+            </div>
+            <div class="col">
+                <img src="water_efficient_appliances.jpg" alt="Water-Efficient Appliances" class="img-fluid rounded">
+                <!-- Source: Pixabay -->
+            </div>
+            <div class="col">
+                <img src="fix_leaks.jpg" alt="Fixing Leaks" class="img-fluid rounded">
+                <!-- Source: Pexels -->
+            </div>
+            <div class="col">
+                <img src="native_plants.jpg" alt="Native Plants for Landscaping" class="img-fluid rounded">
+                <!-- Source: Unsplash -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Simple Water-Saving Game Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Water Conservation Game</h2>
+    <p class="text-center">Click on the right choice to save water!</p>
+    <div class="text-center">
+        <button id="saveWaterButton" class="btn btn-success mx-2">Save Water</button>
+        <button id="wasteWaterButton" class="btn btn-danger mx-2">Waste Water</button>
+    </div>
+    <p id="waterGameResult" class="text-center mt-3" style="font-size: 1.2rem; font-weight: bold;"></p>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="text-white py-4 bg-info text-center"> <!-- Footer matches navbar color -->
+        <div class="container">
+            <p>&copy; WATER CONSERVATION - Every Drop Counts.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>
