@@ -1,0 +1,347 @@
+/* Hamza's code*/
+/* css code for the first page */
+body {
+    font-family: 'Arial', sans-serif; /* Simple, clean font */
+    background-color: #f9f9f9; /* Light grey background so everything pops */
+    margin: 0; /* No extra space around the page */
+    padding: 0; /* Same as above, keep it tight */
+}
+.navbar-brand {
+    font-weight: bold; /* Make the brand name stand out */
+    text-transform: uppercase; /* Looks more official */
+}
+/* code for the hero section */
+h1{
+	color:rgb(25, 135, 84);
+}
+img{
+	object-fit:cover;
+    max-height:33vh
+}
+ .custom-green {
+    color: green;
+  }
+.custom-border {
+  padding: 10px 20px;
+  margin: 10px;
+}
+  
+
+.custom-btn
+{
+   background-color: black;
+   border-radius: 10px;
+   border: 2px solid #73AD21;
+   padding: 10px; 
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+.btn-outline-dark {
+  background-color: rgb(25, 135, 84); /*match the color with the navbar*/
+  color: white;
+  border-color: rgb(25, 135, 84); 
+}
+.btn.dropdown-toggle {
+    border: none;
+}
+.btn.btn-dark.bg-success {
+  border: none;
+}
+.sustainibility {
+  text-align:left;
+}
+
+/*picture and info code*/
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: lightgreen;
+  color: white;
+}
+
+.flip-card-back {
+  background-color:lightgreen ;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ img {
+  width: 100%;
+  hieght: 100%;
+  
+}
+.right {
+	text-align:left;
+}
+/*Responsive image styling*/
+#popup {
+  display: none; 
+  position: absolute; 
+  top: 0; 
+  left: 290.5px; 
+  width: 255px; 
+  hieght: 90px;  
+  padding: 10px;
+  color:white;
+  background-color: lightgreen; 
+  border: 1px solid black; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+}
+ 
+.wrapper {
+	position: relative;
+	display: inline-block;
+
+
+}
+#first {
+  width: 290px; 
+  hieght: 500px; 
+}
+#popup2 {
+  display: none; 
+  position: absolute; 
+  top: 0; 
+  left: 290px; 
+  width: 255px; 
+  hieght: 90px;  
+  padding: 10px;
+  color:white;
+  background-color: lightgreen; 
+  border: 1px solid black; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+}
+#second {
+  width: 290px; 
+  hieght: 500px; 
+}
+
+
+footer {
+    background: #17a2b8; /* Matches the water theme */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+	 
+
+
+
+
+
+
+
+
+
+
+/* duke's code*/
+/* Basic styles for the whole page */
+body {
+    font-family: 'Arial', sans-serif; /* Simple, clean font */
+    background-color: #f9f9f9; /* Light grey background so everything pops */
+    margin: 0; /* No extra space around the page */
+    padding: 0; /* Same as above, keep it tight */
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A little shadow for depth */
+}
+.navbar-brand {
+    font-weight: bold; /* Make the brand name stand out */
+    text-transform: uppercase; /* Looks more official */
+}
+
+/* Hero section at the top of the page */
+.hero-section {
+    background: linear-gradient(to right, #28a745, #56ccf2); /* Green to blue gradient, looks cool */
+    color: white; /* White text for contrast */
+    padding: 60px 0; /* Some space to breathe */
+}
+.hero-section h1 {
+    font-size: 2.5rem; /* Big, bold title */
+    font-weight: bold;
+    margin-bottom: 20px; /* Adds space below the title */
+}
+.hero-section p {
+    font-size: 1.2rem; /* Subtitle is slightly smaller */
+}
+
+/* Buttons used on the page */
+button {
+    font-size: 1rem; /* Standard button size */
+    padding: 10px 20px; /* Makes the button easier to click */
+    border: none;
+    border-radius: 5px; /* Rounded corners are nicer to look at */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+button:hover {
+    background-color: #004a99; /* Darker blue when hovering */
+    color: white; /* White text to match */
+    transform: scale(1.05); /* Button "grows" slightly when hovered */
+}
+
+/* Styling for the random tip display box */
+#tipDisplay {
+    text-align: center; /* Center the text */
+    color: #333; /* Dark grey so it’s easy to read */
+    padding: 15px; /* Add some space inside the box */
+    border: 1px dashed #2f80ed; /* Dashed border for attention */
+    background: #eef7ff; /* Light blue background, nice and soft */
+    border-radius: 5px; /* Rounded edges make it look smoother */
+}
+
+/* Main content paragraphs (informational section) */
+.container p {
+    font-size: 1rem; /* Default size for easy reading */
+    line-height: 1.6; /* Adds space between lines for readability */
+    color: #333; /* Neutral dark grey */
+}
+.container a {
+    color: #28a745; /* Link color matches the green theme */
+    text-decoration: none; /* No underline by default */
+}
+.container a:hover {
+    text-decoration: underline; /* Underline links when hovered */
+}
+
+/* Grid image section */
+.img-fluid {
+    border: 2px solid #ddd; /* Thin border around each image */
+    border-radius: 5px; /* Slightly rounded edges */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+.img-fluid:hover {
+    transform: scale(1.05); /* Slight zoom on hover, makes it interactive */
+    border-color: #2f80ed; /* Changes border color on hover */
+}
+
+/* Contact form styling */
+form {
+    background: white; /* Clean white background for the form */
+    padding: 20px; /* Add space inside the form */
+    border: 1px solid #ddd; /* Light border around it */
+    border-radius: 5px; /* Rounded corners for consistency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for a polished look */
+}
+form .form-label {
+    font-weight: bold; /* Labels stand out */
+}
+form .form-control {
+    border-radius: 5px; /* Match the rest of the design */
+}
+
+/* Footer at the bottom of the page */
+footer {
+    background: #28a745; /* Sticking with the green theme */
+    color: white; /* White text for good contrast */
+    padding: 20px 0; /* Padding for space inside */
+    text-align: center; /* Centered text looks clean */
+    font-size: 1rem; /* Standard size */
+}
+/* General styles for the Water Conservation page */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, standard font */
+    background-color: #f4f8fb; /* Light blue background to reflect the water theme */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a little depth */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #17a2b8, #5bc0de); /* Blue gradient for water theme */
+    color: white;
+    padding: 60px 0; /* Adds space vertically */
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; /* Smooth hover effects */
+}
+button:hover {
+    background-color: #0b5e7d; /* Darker blue on hover */
+    color: white;
+    transform: scale(1.05); /* Slightly bigger on hover */
+}
+
+/* Tip Display */
+#waterTipDisplay {
+    text-align: center;
+    color: #333; /* Dark grey for readability */
+    padding: 15px;
+    border: 1px dashed #5bc0de; /* Dashed border to emphasize */
+    background: #e9f7fc; /* Light blue background */
+    border-radius: 5px;
+}
+
+/* Grid Images */
+.img-fluid {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.img-fluid:hover {
+    transform: scale(1.05); /* Adds interactivity */
+    border-color: #17a2b8; /* Matches water theme */
+}
+
+/* Footer */
+footer {
+    background: #17a2b8; /* Matches the water theme */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
