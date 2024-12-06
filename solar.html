@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Solar Energy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #006400; /* Green text */
+        }
+        header {
+            background-color: #0047ab; /* Dark blue header */
+            color: white;
+            padding: 20px;
+            font-size: 2em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        footer {
+            background-color: #0047ab;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Sustainable Solar Energy
+</header>
+
+<section id="sustainability">
+    <h2>How Solar Panels Are Sustainable</h2>
+    <img src="https://www.citizensolar.com/wp-content/uploads/2022/09/solar-panels-roof-solar-cell-1-scaled.jpg" alt="Solar panels in a field">
+    <p>Solar panels harness energy from the sun, a renewable and inexhaustible resource, reducing dependence on finite fossil fuels.
+They generate electricity without emitting greenhouse gases, contributing to cleaner air and a healthier environment.
+Solar panels have a long lifespan, typically 25 years or more, minimizing the need for frequent replacements and resource consumption.
+The energy used to manufacture solar panels is quickly offset by the clean energy they produce, making them an efficient long-term solution.
+They can be installed on existing structures, reducing land use impact and integrating seamlessly into urban and rural landscapes. .</p>
+</section>
+
+<section id="benefits">
+    <h2>Benefits of Sustainable Solar Panels</h2>
+    <img src="https://cdn.shopify.com/s/files/1/0493/9834/9974/files/home-solar-panels.jpg?v=1685522273 "alt="Solar panels on a rooftop">
+    <p>Solar panels lower electricity bills by allowing households and businesses to generate their own energy, reducing reliance on costly utility power.
+They provide energy independence, ensuring a stable power supply even in remote areas or during power outages.
+By producing clean energy, solar panels help mitigate climate change and improve environmental health.
+They increase property value, as homes with solar installations are often seen as more energy-efficient and desirable.
+Solar energy systems create jobs in manufacturing, installation, and maintenance, contributing to economic growth and local development. </p>
+</section>
+
+<section id="what-they-do">
+    <h2>What Solar Panels Do</h2>
+    <img src=" https://insideclimatenews.org/wp-content/uploads/2023/03/solar_robert-nickelsberg-getty-scaled.jpg " alt="Solar panels in a sunny environment">
+    <p>Solar panels convert sunlight into electricity using photovoltaic cells, providing clean, renewable power for homes and businesses using photovalotic cells 
+	these cells absorb sunlight and produce a flow of electrons producing clean and renewablw energy without emitting greenhouse gases .</p>
+</section>
+
+<footer>
+    &copy; 2024 Sustainable Solar Energy
+</footer>
+
+</body>
+</html>
+
+
+  <div class="survey">
+  <h2>Sustainability Survey</h2>
+  <p>We value your thoughts on sustainability! Please take a moment to share your opinion.</p>
+  <form id="sustainability-survey">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+    <label for="rating">How important is sustainability to you (1 to 5)?</label><br>
+    <select id="rating" required>
+      <option value="">Select a rating</option>
+      <option value="1">1 - Not important</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 - Extremely important</option>
+    </select><br><br>
+
+    <label for="feedback">Your Comments:</label><br>
+    <textarea id="feedback" rows="4" placeholder="Share your thoughts..." required></textarea><br><br>
+
+    <button type="button" onclick="submitSurvey()">Submit</button>
+  </form>
+  <p id="thank-you-message"></p>
+</div>
+
+<script>
+  function submitSurvey() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const rating = document.getElementById('rating').value;
+    const feedback = document.getElementById('feedback').value;
+
+    if (name && email && rating && feedback) {
+      const message = `Thank you, ${name}, for your feedback! Your input on sustainability is highly valued.`;
+      document.getElementById('thank-you-message').textContent = message;
+      document.getElementById('sustainability-survey').reset();
+    } else {
+      alert('Please complete all fields before submitting.');
+    }
+  }
+</script>
+
+<style>
+  .survey {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  .survey h2 {
+    text-align: center;
+  }
+  .survey input, .survey textarea, .survey select, .survey button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .survey button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  .survey button:hover {
+    background-color: #218838;
+  }
+  .survey p {
+    text-align: center;
+    margin-top: 10px;
+  }
+</style>
+ 

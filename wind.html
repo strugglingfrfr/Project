@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windmill Sustainability</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+        }
+        header {
+            text-align: center;
+            background: #74c0e3;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        section:nth-child(even) {
+            background-color: #eef7ff;
+        }
+        img {
+            width: 300px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Windmill Sustainability</h1>
+        <p>Learn about how windmills generate clean energy.</p>
+    </header>
+
+    <section id="section1">
+        <h2>What Are sustainable Windmills?</h2>
+        <p> Sustainable windmills are eco-friendly devices that harness wind energy to generate electricity without emitting greenhouse gases. They are built with durable materials and designed for minimal environmental impact, often using recyclable components. By providing a renewable energy source, they contribute to reducing reliance on fossil fuels and mitigating climate change.</p>
+        <div id="image1"></div>
+    </section>
+
+    <section id="section2">
+        <h2>How Do sustainable Windmills Work?</h2>
+        <p> Sustainable windmills, or wind turbines, harness wind's kinetic energy to generate electricity. Wind spins the blades, which turn a rotor connected to a generator that produces power through electromagnetic induction. The electricity is then sent to the grid, making wind a clean, renewable energy source with minimal environmental impact.</p>
+        <div id="image2"></div>
+    </section>
+
+    <section id="section3">
+        <h2>Benefits of sustainable Wind Energy</h2>
+        <p> Sustainable wind energy is clean, renewable, and reduces greenhouse gas emissions, helping combat climate change. It is cost-effective, promotes energy independence, and creates jobs in manufacturing and maintenance. Wind farms use land efficiently and can coexist with agriculture, maximizing land utility..</p>
+        <div id="image3"></div>
+    </section>
+
+    <script>
+        // Add an image to Section 1
+        const image1 = document.createElement('img');
+        image1.src = 'https://thumbs.dreamstime.com/b/sustainability-illustration-esg-green-energy-sustainable-industry-windmills-solar-energy-panels-environmental-social-271249104.jpg '; // Replace with a valid image URL
+        image1.alt = 'Windmill Example 1';
+        document.getElementById('image1').appendChild(image1);
+
+        // Add an image to Section 2
+        const image2 = document.createElement('img');
+        image2.src = 'https://www.earthmill.co.uk/wp-content/uploads/2014/12/EWT-02.jpg '; // Replace with a valid image URL
+        image2.alt = 'Windmill Example 2';
+        document.getElementById('image2').appendChild(image2);
+
+        // Add an image to Section 3
+        const image3 = document.createElement('img');
+        image3.src = ' https://www.spring-gds.com/media/images/wind-turbines.16e7d2.original.bb2cd7.jpg '; // Replace with a valid image URL
+        image3.alt = 'Windmill Example 3';
+        document.getElementById('image3').appendChild(image3);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Sidebar styling */
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      background-color: #333;
+      color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 20px;
+    }
+
+    .sidebar a {
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    /* Toggle button */
+    .menu-btn {
+      font-size: 20px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 10px 15px;
+      transition: 0.3s;
+    }
+
+    .menu-btn:hover {
+      background-color: #575757;
+    }
+  </style>
+</head>
+<body>
+  <button class="menu-btn" onclick="toggleSidebar()">☰ Menu</button>
+
+  <div class="sidebar" id="mySidebar">
+<footer>
+    &copy; 2024 Sustainable wind energy
+</footer>
+
+</body>
+</html>
